@@ -1,15 +1,15 @@
 .circle{
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 1px;
     background-color: black;
-    border-radius: 50%;
+    border-radius: 0%;
 
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction:alternate-reverse;
 }
 
-@for $iterador from 1 through 5 {
+@for $iterador from 1 through 1 {
 
     .circle-#{$iterador}{
         animation-name: animacion#{$iterador};
@@ -20,9 +20,7 @@
             }
         } 
         
-        @if $iterador == 5{
-            animation-direction: alternate-reverse;
-        }
+       
 
         }
     }

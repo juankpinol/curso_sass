@@ -1,6 +1,8 @@
 .hero__container {
-  height: calc(100vh - 70px);
+  height: 500px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.537254902), rgba(0, 0, 0, 0.6470588235)), url(../multimedia/img/samantha-fortney-VqXio0EvV1A-unsplash.jpg);
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
