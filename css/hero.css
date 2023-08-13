@@ -1,0 +1,23 @@
+.hero__container {
+  height: calc(100vh - 70px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.537254902), rgba(0, 0, 0, 0.6470588235)), url(../multimedia/img/samantha-fortney-VqXio0EvV1A-unsplash.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero__texts {
+  width: 90%;
+  color: #ffffff;
+}
+.hero__title {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+}
+.heroparagraph {
+  font-size: 1.125rem;
+}
+
+/*# sourceMappingURL=hero.css.map */

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.nav {
+  background-color: rgb(3, 3, 3);
+}
+.nav__container {
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+.nav__item {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav :hover__item {
+  color: rgb(255, 0, 0);
+}
+@media (min-width: 764px) {
+  .nav__container {
+    justify-content: flex-end;
+  }
+}
+
+.hero__container {
+  height: calc(100vh - 70px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.537254902), rgba(0, 0, 0, 0.6470588235)), url(../multimedia/img/samantha-fortney-VqXio0EvV1A-unsplash.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero__texts {
+  width: 90%;
+  color: #ffffff;
+}
+.hero__title {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+}
+.heroparagraph {
+  font-size: 1.125rem;
+}
+
+/*# sourceMappingURL=style.css.map */
